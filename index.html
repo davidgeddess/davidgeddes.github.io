@@ -1,31 +1,65 @@
 <html>
     <head>
+        <meta 
+            name="viewport" content="width=device-width, initial-scale=1" />
         <style>
-            body{background-image: url(phot.jpg); background-size: cover;}
-            a:link, a:visited {background-color: purple; color: white; padding: 14px 25px; text-align: center; text-decoration: none; display: inline-block;}
-            a:hover, a:active {background-color: violet;}
+            @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+            body,html {
+                margin:0;
+                padding:0;
+            }
+            body{
+            color: #d5af82;
+            background-color: hsl(223, 46%, 12%);
+            height:100%; 
+            width:100%;
+            font-family: 'Open Sans', sans-serif;
+        }
+        h1{font-size: 30px;}
+            a {
+                transition: 1s;
+            }
+            a:link, a:visited {
+                background-color: purple; 
+                color: white; 
+                padding: 14px 25px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+            }
+            a:hover, a:active {
+                background-color: violet;
+                transform: rotate(720deg);
+            }
+            #wrapper {
+                text-align: center;
+                padding: 20px;
+            }
         </style>
     </head>
         <body>
-            <h1 style="color:red">Welcome to the home page for our SSC2b Project</h1>
-            <h4 style="color: whitesmoke;">Our SSC project aims to explore expedition medicine as a speciality, 
+            <div id="wrapper">
+            <h1 style="color:#d5af82">D08 SSC2B Home Page</h1>
+            <h4>Our SSC project aims to explore expedition medicine as a speciality, 
                 gaining insight into current barriers facing those working in the field and those aiming to enter the field.
                 
                 Throughout the project, we gathered data from medical students and medical professionals, which will be explored throughout the
                 following sections:</h4>
 
-            <a href="https://www.google.com/intro" target="_blank" >Introduction/Background</a>
+            <a href="./Introduction.html" target="_blank" >Introduction/Background</a>
             <a href="https://www.google.com/Findings" target="_blank">Findings</a>
             <a href="https://www.google.com/Conclusions" target="_blank">Conclusions</a>
             <a href="https://www.google.com/Reflections" target="_blank">Reflections</a>
             <a href="https://www.google.com/References" target="_blank">References</a>
             <a href="https://www.google.com/Appendices" target="_blank">Appendices</a>
-            <h5 style="color: whitesmoke;"> “This site was made by a group [link to the Contributions page listing all of you] of
+            <h5> “This site was made by a group [link to the Contributions page listing all of you] of
                 University of Edinburgh medical students who studied this subject as part of the SSC.
                 This webfolio has not been peer reviewed. We certify that this webfolio is our own
                 work and that we have authorisation to use all the content (e.g. figures / images)
                 used in this webfolio”</h5>
-            <h5 style="color: whitesmoke;"> Tutor = Dr Oliver Vick (o.v@me.com) </h5>
-            <h5 style="color: whitesmoke;"> Word Count = (insert later) </h5>
+            <h5> Tutor = Dr Oliver Vick (o.v@me.com) </h5>
+            <h5> Word Count = (insert later) </h5>
+            </div>
+            <img src="./phot.jpg">
         </body>
 </html>
