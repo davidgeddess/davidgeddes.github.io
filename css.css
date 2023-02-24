@@ -38,7 +38,6 @@ a:visited {
 a:hover,
 a:active {
     background-color: violet;
-    transform: rotate(360deg);
 }
 
 #wrapper {
