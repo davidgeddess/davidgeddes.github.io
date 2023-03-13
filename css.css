@@ -18,7 +18,7 @@ body {
 }
 
 h1 {
-    font-size: 42px;
+    font-size: 45px;
 }
 
 a {
@@ -47,6 +47,11 @@ a:active {
 
 img {
     width: 100%;
+}
+
+.standard-paragraph-title {
+    font-size: 26px; 
+    line-height: 32px;
 }
 
 .standard-paragraph {
