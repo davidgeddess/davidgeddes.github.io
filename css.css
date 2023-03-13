@@ -54,12 +54,9 @@ img {
 }
 
 .standard-paragraph {
-    font-size: 18px;
-}
-
-.standard-paragraph-smaller {
     font-size: 16px;
 }
+
 
 .disclaimer {
     font-size: 13px;
