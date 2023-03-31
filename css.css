@@ -54,17 +54,22 @@ img {
 }
 
 .standard-paragraph-title2 {
-    font-size: 20px; 
+    font-size: 20px; text-decoration: underline;
 }
 
+.standard-paragraph-title3 {
+    font-size: 20px; 
+}
 .standard-paragraph {
     font-size: 16px;
 }
-
 .references {
     font-size: 13;
 }
 
 .disclaimer {
     font-size: 13px;
+}
+.standard-paragraph-quote {
+    font-style: italic;
 }
